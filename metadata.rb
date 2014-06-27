@@ -7,7 +7,7 @@ long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
 version          "0.7.5"
 depends          "firewall", ">= 0.9"
 
-%w{ ubuntu }.each do |os|
+%w{ ubuntu debian }.each do |os|
   supports os
 end
 
